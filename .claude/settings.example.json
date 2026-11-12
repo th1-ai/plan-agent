@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "defaultMode": "plan",
+    "deny": [
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(rm *)",
+      "Bash(git push *)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
+  "useAutoModeDuringPlan": false
+}

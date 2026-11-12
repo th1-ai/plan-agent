@@ -26,3 +26,8 @@ Thumbs.db
 dist/
 build/
 *.log
+
+# Run reports (can contain guest data)
+runs/*
+!runs/.gitkeep
+!runs/README.md
